@@ -10,4 +10,5 @@ end
 def list_dwarves(array)
   array.each_with_index {|character, index|
   puts "#{index} #{character}"
+  }
 end
